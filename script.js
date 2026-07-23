@@ -34,7 +34,6 @@ const INITIAL_VISIBLE_COUNT = 6;
 let openDescriptions = new Set();
 
 // Persistent conversation memory
-const searchContext = "";
 let messages = [
   {
     role: "system",
@@ -53,8 +52,6 @@ When answering beauty-related questions:
 - Provide personalized beauty advice.
 - If web search information is used, include a Sources section with links.
 
-Current web search results:
-${searchContext}
 `
   }
 ];
