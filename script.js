@@ -34,6 +34,7 @@ const INITIAL_VISIBLE_COUNT = 6;
 let openDescriptions = new Set();
 
 // Persistent conversation memory
+const searchContext = "";
 let messages = [
   {
     role: "system",
